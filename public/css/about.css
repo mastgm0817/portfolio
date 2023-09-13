@@ -1,0 +1,28 @@
+/* header.css */
+.about-container {
+  width: 100%;
+  height: 80vh; /* 뷰포트 높이의 50% */
+  background-color: #ffffff;
+  color: black; /* 또는 color: white; */
+}
+
+/* 반응형 구현 */
+@media (max-width: 1280px) {
+  .about-container {
+    background-size: cover;
+  }
+}
+
+.content-container {
+  /* 특정 공간을 차지하도록 설정, 예를 들어: */
+  width: 60%;
+  margin: auto; /* 중앙 정렬 */
+  padding-top: 100px;
+}
+
+.content {
+  /* content 스타일, 예를 들어: */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
