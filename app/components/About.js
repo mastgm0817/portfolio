@@ -5,12 +5,25 @@ const About = () => {
   return (
     <div id="about">
       <div className="about-container">
-        <div className="content-container">
+        <article className="content-container">
           <div className="content">
-            <p>About Me</p>
+            <div className="section">
+              <div className="section-image">image</div>
+              <div className="section-title">About Me</div>
+            </div>
+            <div className="content-section">
+              <div className="section-item">1</div>
+              <div className="section-item">2</div>
+              <div className="section-item">3</div>
+            </div>
+            <div className="content-section">
+              <div className="section-item">4</div>
+              <div className="section-item">5</div>
+              <div className="section-item">6</div>
+            </div>
+            <div className="section-bottom">홍보</div>
           </div>
-          {/* 내용 */}
-        </div>
+        </article>
       </div>
     </div>
   );

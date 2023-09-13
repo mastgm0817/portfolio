@@ -1,7 +1,9 @@
 /* header.css */
 .about-container {
+  display: flex;
+  /* border: 10px solid red; */
   width: 100%;
-  height: 80vh; /* 뷰포트 높이의 50% */
+  height: 80vh;
   background-color: #ffffff;
   color: black; /* 또는 color: white; */
 }
@@ -14,15 +16,47 @@
 }
 
 .content-container {
+  /* border: 10px solid blue; */
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
   /* 특정 공간을 차지하도록 설정, 예를 들어: */
-  width: 60%;
-  margin: auto; /* 중앙 정렬 */
-  padding-top: 100px;
 }
 
 .content {
-  /* content 스타일, 예를 들어: */
-  font-size: 24px;
-  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  width: 30%;
+  height: 100px;
   text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-item {
+  width: 30%;
+  height: 20vh;
+  border: 5px solid red;
+}
+
+.section-bottom {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 5px solid purple;
 }
