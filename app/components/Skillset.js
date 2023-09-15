@@ -27,7 +27,7 @@ const Skillset = () => {
                     src="/images/skillset/Frontend.png"
                     alt="My Image"
                     width={300}
-                    height={450}
+                    height={700}
                   />
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Skillset = () => {
                     src="/images/skillset/Backend.png"
                     alt="My Image"
                     width={300}
-                    height={450}
+                    height={700}
                   />
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Skillset = () => {
                     src="/images/skillset/Deployment.png"
                     alt="My Image"
                     width={300}
-                    height={450}
+                    height={700}
                   />
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Skillset = () => {
                     src="/images/skillset/Communication.png"
                     alt="My Image"
                     width={300}
-                    height={200}
+                    height={300}
                   />
                 </div>
               </div>
