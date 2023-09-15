@@ -1,7 +1,6 @@
 .skillset-container {
   display: flex;
   width: 100%;
-  height: 100vh;
   color: black; /* 또는 color: white; */
 }
 
@@ -38,8 +37,7 @@
 
 .sk-section-content-item {
   width: 25%;
-  height: 20vh;
-  background-color: #f1f1f1;
+  background-color: white;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -48,8 +46,13 @@
 }
 
 .sk-content-item-title {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
-  color: orange;
+  color: green;
   border-bottom: 1px solid gray;
+}
+
+.sk-content-item-image {
+  margin-top: 30px;
+  width: 100%;
 }
