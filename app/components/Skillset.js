@@ -24,7 +24,7 @@ const Skillset = () => {
                 <div className="sk-content-item-title">Frontend</div>
                 <div className="sk-content-item-image">
                   <Image
-                    src="/images/skillset/frontend.png"
+                    src="/images/skillset/Frontend.png"
                     alt="My Image"
                     width={300}
                     height={700}
@@ -40,7 +40,7 @@ const Skillset = () => {
                 </div>
                 <div className="sk-content-item-image">
                   <Image
-                    src="/images/skillset/backend.png"
+                    src="/images/skillset/Backend.png"
                     alt="My Image"
                     width={300}
                     height={700}
@@ -56,7 +56,7 @@ const Skillset = () => {
                 </div>
                 <div className="sk-content-item-image">
                   <Image
-                    src="/images/skillset/deployment.png"
+                    src="/images/skillset/Deployment.png"
                     alt="My Image"
                     width={300}
                     height={700}
@@ -74,7 +74,7 @@ const Skillset = () => {
                 </div>
                 <div className="sk-content-item-image">
                   <Image
-                    src="/images/skillset/vcs.png"
+                    src="/images/skillset/VCS.png"
                     alt="My Image"
                     width={300}
                     height={200}
@@ -90,7 +90,7 @@ const Skillset = () => {
                 </div>
                 <div className="sk-content-item-image">
                   <Image
-                    src="/images/skillset/communication.png"
+                    src="/images/skillset/Communication.png"
                     alt="My Image"
                     width={300}
                     height={300}
@@ -106,7 +106,7 @@ const Skillset = () => {
                 </div>
                 <div className="sk-content-item-image">
                   <Image
-                    src="/images/skillset/certificate.png"
+                    src="/images/skillset/Certificate.png"
                     alt="My Image"
                     width={300}
                     height={350}
