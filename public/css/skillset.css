@@ -1,0 +1,55 @@
+.skillset-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  color: black; /* 또는 color: white; */
+}
+
+.skillset-container > .content-container {
+  background: #cbd5e1;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.sk-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-bottom: 30px;
+}
+
+.sk-section-title {
+  width: 15%;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.sk-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sk-section-content-item {
+  width: 25%;
+  height: 20vh;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sk-content-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+  border-bottom: 1px solid gray;
+}

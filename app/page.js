@@ -15,8 +15,8 @@ export default function Home() {
         <Header></Header>
         <About></About>
         <Skillset></Skillset>
-        <Repos></Repos>
         <Projects></Projects>
+        <Repos></Repos>
         <Footer></Footer>
       </div>
     </>

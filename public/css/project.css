@@ -1,0 +1,26 @@
+.project-container {
+  display: flex;
+  /* border: 10px solid red; */
+  width: 100%;
+  height: 70vh;
+  color: black; /* 또는 color: white; */
+}
+
+.project-container > .content-container {
+  background: white;
+}
+
+.pj-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-bottom: 30px;
+}
+
+.pj-section-title {
+  width: 15%;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
