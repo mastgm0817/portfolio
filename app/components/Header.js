@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <nav>
-        <span className="left">KBY's Portfolio</span>
+        <span className="left">KBY&apos;s Portfolio</span>
         <div className="right">
           <span onClick={() => scrollToSection("about")}>자기소개</span>
           <span onClick={() => scrollToSection("skillset")}>스킬셋</span>
