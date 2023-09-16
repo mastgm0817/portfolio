@@ -4,13 +4,14 @@
   width: 100%;
   background-color: #bfc8ad;
   color: black; /* 또는 color: white; */
+  padding-bottom: 50px;
 }
 
 .repo-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   border-bottom: 1px dotted gray;
 }
 
@@ -31,8 +32,8 @@
   background-color: #fdfffc;
   padding: 20px;
   border-radius: 30px;
-  width: 70%;
-  height: 40vh;
+  width: 60%;
+  height: 50vh;
   margin: auto; /* 가운데 정렬 */
 }
 .repo-items-container {
