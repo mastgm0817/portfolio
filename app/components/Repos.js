@@ -46,7 +46,7 @@ const Repos = () => {
                   <Image
                     src="/images/Notion.png"
                     alt="My Image"
-                    width={250}
+                    width={270}
                     height={130}
                   />
                 </div>

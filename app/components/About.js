@@ -130,7 +130,8 @@ const About = () => {
               </div>
             </div>
             <div className="section-bottom">
-              * 외주 개발 또는 과외/레슨 문의는 위 연락처/이메일로 부탁드립니다
+              * 사이드 프로젝트 또는 과외/레슨 문의는 위 연락처/이메일로
+              부탁드립니다
             </div>
           </div>
         </article>
