@@ -41,7 +41,27 @@ const Repos = () => {
                   </ul>
                 </div>
               </div>
-              <div className="repo-grid-item">Velog</div>
+              <div className="repo-grid-item">
+                <div className="item-title-notion">
+                  <Image
+                    src="/images/Notion.png"
+                    alt="My Image"
+                    width={200}
+                    height={170}
+                  />
+                </div>
+                <div className="repo-items-container">
+                  <a href="https://alluring-wrist-67d.notion.site/Dean-s-Portfolio-d7fc9ef0f28d4556907e938100cbe68b?pvs=4">
+                    notion.com/mastgm0817
+                  </a>
+                  <p>나만의 모든것을 기록하는 곳</p>
+                  <ul>
+                    <li>공부한 흔적</li>
+                    <li>프로젝트 흔적</li>
+                    <li>삽질한 흔적</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </article>

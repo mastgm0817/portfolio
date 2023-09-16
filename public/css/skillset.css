@@ -5,7 +5,7 @@
 }
 
 .skillset-container > .content-container {
-  background: #cbd5e1;
+  background: #90b494;
   width: 100%;
   padding-top: 64px;
   padding-bottom: 64px;
@@ -37,7 +37,7 @@
 
 .sk-section-content-item {
   width: 25%;
-  background-color: white;
+  background-color: #fdfffc;
   padding: 20px;
   text-align: center;
   border-radius: 10px;

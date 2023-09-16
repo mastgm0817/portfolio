@@ -1,8 +1,8 @@
 /* header.css */
 .header-container {
   width: 100%;
-  height: 80vh; /* 뷰포트 높이의 50% */
-  background-image: url("/images/1.png");
+  height: 90vh; /* 뷰포트 높이의 50% */
+  background-image: url("/images/top.png");
   background-size: cover; /* 이미지가 항상 전체 요소를 덮도록 함 */
   background-position: center;
   background-repeat: no-repeat;

@@ -2,8 +2,8 @@
   display: flex;
   /* border: 10px solid red; */
   width: 100%;
-  height: 70vh;
-  background-color: #cbd5e1;
+  height: 80vh;
+  background-color: #bfc8ad;
   color: black; /* 또는 color: white; */
 }
 
@@ -30,10 +30,11 @@
 }
 
 .repo-grid-item {
-  background-color: white;
+  background-color: #fdfffc;
   padding: 20px;
   border-radius: 10px;
   width: 70%;
+  height: 40vh;
   margin: auto; /* 가운데 정렬 */
 }
 .repo-items-container {
@@ -54,4 +55,9 @@
 .repo-items-container > p {
   font-weight: bold;
   font-size: 24px;
+}
+
+.item-title-notion {
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
