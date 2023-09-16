@@ -26,7 +26,7 @@ const Repos = () => {
                     src="/images/github.jpeg"
                     alt="My Image"
                     width={350}
-                    height={200}
+                    height={150}
                   />
                 </div>
                 <div className="repo-items-container">
@@ -46,8 +46,8 @@ const Repos = () => {
                   <Image
                     src="/images/Notion.png"
                     alt="My Image"
-                    width={200}
-                    height={170}
+                    width={250}
+                    height={130}
                   />
                 </div>
                 <div className="repo-items-container">
