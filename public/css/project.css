@@ -1,8 +1,9 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 .project-container {
   display: flex;
   /* border: 10px solid red; */
   width: 100%;
-  height: 70vh;
   color: black; /* 또는 color: white; */
 }
 
@@ -23,4 +24,90 @@
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+}
+
+.pj-section-content {
+  background: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pj-detail-title {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.pj-detail-date {
+  text-align: center;
+  font-size: 24px;
+  color: gray;
+  padding-bottom: 30px;
+}
+
+.pj-detail-flex {
+  display: flex;
+}
+
+.pj-flex-left {
+  margin-left: 30px;
+  width: 40%;
+}
+
+.pj-flex-right {
+  width: 55%;
+}
+
+.pj-right-desc {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.pj-right-button {
+  border-bottom: 1px dotted gray;
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 40px;
+  margin-left: 100px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+
+.pj-right-flex {
+  border-top: 1px solid #000;
+  margin-left: 100px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.pj-flex-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.pj-flex-title {
+  font-family: "Noto Sans KR", sans-serif;
+  padding-left: 10px;
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pj-flex-content {
+  font-family: "Noto Sans KR", sans-serif;
+  flex: 2;
+  font-size: 16px;
 }
