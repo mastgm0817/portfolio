@@ -27,7 +27,7 @@ const Projects = () => {
                   <Image
                     src="/images/project/01/luvoost.png"
                     alt="My Image"
-                    width={700}
+                    width={550}
                     height={700}
                   />
                 </div>
