@@ -14,7 +14,7 @@
     opacity: 0;
   }
   to {
-    left: 100px;
+    left: 5%;
     opacity: 0.7;
   }
 }
@@ -25,15 +25,15 @@
     opacity: 0;
   }
   to {
-    left: 100px;
+    left: 5%;
     opacity: 0.7;
   }
 }
 
 .header-text-title {
   position: absolute;
-  top: 600px;
-  left: 100px;
+  top: 60%;
+  left: 5%;
   color: white;
   font-weight: bold;
   font-size: 50px;
@@ -43,8 +43,8 @@
 
 .header-text-content {
   position: absolute;
-  top: 690px;
-  left: 100px;
+  top: 70%;
+  left: 5%;
   text-align: left;
   font-size: 24px;
   font-weight: bold;
@@ -60,7 +60,7 @@
 .more-detail {
   position: absolute;
   bottom: 50px;
-  left: 800px;
+  left: 45%;
   width: 170px;
   height: 40px;
   background-color: coral;
