@@ -20,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     // 스크롤 이벤트 리스너를 추가합니다.
     function handleScroll() {
-      if (window.scrollY > 150) {
+      if (window.scrollY > 60) {
         // 스크롤 위치가 200 이상인 경우
         setIsNavFixed(true);
         setIsVisible(true);
