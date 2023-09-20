@@ -30,19 +30,27 @@
 
 .sk-section-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 20px; /* 좌우 및 위아래 간격 설정 */
   justify-content: space-between;
   width: 100%;
 }
 
 .sk-section-content-item {
-  width: 25%;
+  width: calc(30% - 10px);
   background-color: #fdfffc;
   padding: 20px;
   text-align: center;
-  border-radius: 10px;
   margin-bottom: 10px;
+  border-radius: 10px;
   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.sk-section-content-item:hover {
+  transform: translateY(-10px);
 }
 
 .sk-content-item-title {

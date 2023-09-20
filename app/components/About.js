@@ -22,6 +22,7 @@ const About = () => {
             <div className="content-section">
               <div className="section-item">
                 <div className="item-container">
+                  <div className="item-blank"></div>
                   <div className="item-icon">
                     <Image
                       src="/images/profile/me.png"
@@ -34,11 +35,11 @@ const About = () => {
                     <div className="text-title">이름</div>
                     <div className="text-name">고병연</div>
                   </div>
-                  <div className="item-blank"></div>
                 </div>
               </div>
               <div className="section-item">
                 <div className="item-container">
+                  <div className="item-blank"></div>
                   <div className="item-icon">
                     <Image
                       src="/images/profile/birth.png"
@@ -51,11 +52,11 @@ const About = () => {
                     <div className="text-title">생년월일</div>
                     <div className="text-name">90.02.11</div>
                   </div>
-                  <div className="item-blank"></div>
                 </div>
               </div>
               <div className="section-item">
                 <div className="item-container">
+                  <div className="item-blank"></div>
                   <div className="item-icon">
                     {" "}
                     <Image
@@ -69,13 +70,13 @@ const About = () => {
                     <div className="text-title">주소지</div>
                     <div className="text-name">서울시 강서구</div>
                   </div>
-                  <div className="item-blank"></div>
                 </div>
               </div>
             </div>
             <div className="content-section">
               <div className="section-item">
                 <div className="item-container">
+                  <div className="item-blank"></div>
                   <div className="item-icon">
                     {" "}
                     <Image
@@ -89,11 +90,11 @@ const About = () => {
                     <div className="text-title">연락처</div>
                     <div className="text-name">010-6821-7287</div>
                   </div>
-                  <div className="item-blank"></div>
                 </div>
               </div>
               <div className="section-item">
                 <div className="item-container">
+                  <div className="item-blank"></div>
                   <div className="item-icon">
                     {" "}
                     <Image
@@ -107,11 +108,11 @@ const About = () => {
                     <div className="text-title">이메일</div>
                     <div className="text-name">rhquddus@naver.com</div>
                   </div>
-                  <div className="item-blank"></div>
                 </div>
               </div>
               <div className="section-item">
                 <div className="item-container">
+                  <div className="item-blank"></div>
                   <div className="item-icon">
                     {" "}
                     <Image
@@ -125,7 +126,6 @@ const About = () => {
                     <div className="text-title">학력</div>
                     <div className="text-name">시드니공과대학(석사)</div>
                   </div>
-                  <div className="item-blank"></div>
                 </div>
               </div>
             </div>

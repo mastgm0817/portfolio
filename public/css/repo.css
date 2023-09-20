@@ -4,7 +4,6 @@
   width: 100%;
   background-color: #cdcdcd;
   color: black; /* 또는 color: white; */
-  padding-bottom: 50px;
 }
 
 .repo-section {
@@ -30,19 +29,29 @@
 
 .repo-grid-item {
   background-color: #fdfffc;
-  padding: 20px;
   border-radius: 30px;
   width: 60%;
-  height: 50vh;
   margin: auto; /* 가운데 정렬 */
+  padding: 20px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
+.repo-grid-item:hover {
+  transform: translateY(-10px);
+}
+
 .repo-items-container {
   padding-left: 30px;
 }
 
 .repo-items-container > ul {
-  padding-left: 0;
+  padding: 10px;
   font-size: 20px;
+}
+
+.repo-items-container > ul > li {
+  padding-bottom: 5px;
 }
 
 .repo-items-container > a {
@@ -56,7 +65,11 @@
   font-size: 24px;
 }
 
+.item-title {
+  margin-left: 10px;
+}
+
 .item-title-notion {
-  margin-left: 20px;
+  margin-left: 30px;
   padding-bottom: 20px;
 }

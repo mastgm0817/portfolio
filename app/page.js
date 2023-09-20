@@ -11,6 +11,8 @@ import "../public/css/home.css";
 
 export default function Home() {
   const [isNavFixed, setIsNavFixed] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
   };
@@ -21,8 +23,10 @@ export default function Home() {
       if (window.scrollY > 200) {
         // 스크롤 위치가 200 이상인 경우
         setIsNavFixed(true);
+        setIsVisible(true);
       } else {
         setIsNavFixed(false);
+        setIsVisible(false);
       }
     }
 
@@ -34,6 +38,7 @@ export default function Home() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <>
       <div id="top">
@@ -69,29 +74,24 @@ export default function Home() {
           </div>
         </nav>
         <div className="header-container">
-          <div className="header-text"></div>
-          <div className="header-text"></div>
-          <div className="header-text">
-            <div className="header-text-title">
-              <p>웹 개발자 포트폴리오</p>
-            </div>
-            <div className="header-text-content">
-              <p className="header-text-left">
-                &quot;지금 삽질의{" "}
-                <span style={{ color: "#EE6C4D", fontWeight: "bold" }}>
-                  고통
-                </span>{" "}
-                을 즐기자
-              </p>
-              <p>
-                고통이 강할수록 나의{" "}
-                <span style={{ color: "green", fontWeight: "bold" }}>실력</span>{" "}
-                은 상승한다.&quot;
-              </p>
-            </div>
+          <div className="header-text-title">웹 개발자 포트폴리오</div>
+          <div className="header-text-content">
+            <p className="header-text-left">
+              안녕하세요. 방문해주셔서 감사합니다.
+            </p>
+            <p>훌륭한 개발자보다는 현명한 개발자가 되고싶습니다.</p>
           </div>
-          <div className="header-text"></div>
+          <div className="more-detail" onClick={() => scrollToSection("about")}>
+            더 알아보기 ↓
+          </div>
         </div>
+        <button
+          className={`scroll-to-top-button ${isVisible ? "visible" : ""}`}
+          onClick={() => scrollToSection("top")}
+        >
+          ▲
+        </button>
+
         <About></About>
         <Skillset></Skillset>
         <Projects></Projects>

@@ -63,8 +63,7 @@ const Skillset = () => {
                   />
                 </div>
               </div>
-            </div>
-            <div className="sk-section-content">
+
               <div className="sk-section-content-item">
                 <div
                   className="sk-content-item-title "
