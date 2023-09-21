@@ -5,7 +5,8 @@ import { useState, useRef, useEffect } from "react";
 import About from "./components/About";
 import Skillset from "./components/Skillset";
 import Repos from "./components/Repos";
-import Projects from "./components/Projects";
+import Projects1 from "./components/Projects1";
+import Projects2 from "./components/Projects2";
 import Footer from "./components/Footer";
 import "../public/css/home.css";
 
@@ -94,7 +95,8 @@ export default function Home() {
 
         <About></About>
         <Skillset></Skillset>
-        <Projects></Projects>
+        <Projects2></Projects2>
+        <Projects1></Projects1>
         <Repos></Repos>
         <Footer></Footer>
       </div>
