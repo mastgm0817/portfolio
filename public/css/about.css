@@ -25,23 +25,27 @@
   /* 특정 공간을 차지하도록 설정, 예를 들어: */
 }
 
-.content {
+.about-content {
+  border: 1px solid silver;
+  border-radius: 20px;
 }
 
-.section {
+.about-section {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 10vh;
   margin-bottom: 30px;
-  border-bottom: 1px dotted gray;
+  margin-top: 30px;
 }
 
 .section-title {
   width: 15%;
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .content-section {

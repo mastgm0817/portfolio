@@ -7,8 +7,8 @@ const About = () => {
     <div id="about">
       <div className="about-container">
         <article className="content-container">
-          <div className="content">
-            <div className="section">
+          <div className="about-content">
+            <div className="about-section">
               <div className="section-image">
                 <Image
                   src="/images/link.png"

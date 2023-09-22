@@ -52,25 +52,25 @@ export default function Home() {
               className="right-item"
               onClick={() => scrollToSection("about")}
             >
-              자기소개
+              About
             </span>
             <span
               className="right-item"
               onClick={() => scrollToSection("skillset")}
             >
-              스킬셋
-            </span>
-            <span
-              className="right-item"
-              onClick={() => scrollToSection("repos")}
-            >
-              저장소
+              Skills
             </span>
             <span
               className="right-item"
               onClick={() => scrollToSection("projects")}
             >
-              프로젝트
+              Projects
+            </span>
+            <span
+              className="right-item"
+              onClick={() => scrollToSection("archive")}
+            >
+              Archive
             </span>
           </div>
         </nav>

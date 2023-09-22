@@ -4,7 +4,7 @@ import "../../public/css/repo.css";
 
 const Repos = () => {
   return (
-    <div id="repos">
+    <div id="archive">
       <div className="repo-container">
         <article className="content-container">
           <div className="content">
@@ -17,7 +17,7 @@ const Repos = () => {
                   height={50}
                 />
               </div>
-              <div className="repo-section-title">Repo</div>
+              <div className="repo-section-title">Archive</div>
             </div>
             <div className="section-content-grid">
               <div className="repo-grid-item">
